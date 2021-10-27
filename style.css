@@ -20,6 +20,10 @@ a{
     text-decoration: none;
 }
 
+.section-content {
+    width: 100%;
+    height: 70vh;
+}
 
 nav {
     width: 100%;
@@ -38,7 +42,7 @@ nav {
     justify-content: space-between;
     cursor: pointer;
     font-size: 1.25rem;
-    text-transform:capitalizegit stau;
+    text-transform:capitalize;
     color:#999;
 }
 
@@ -59,6 +63,11 @@ nav {
     font-size: 1.5rem;
     color: grey;
     cursor: pointer;
+}
+
+.social-icons a:hover {
+    color: crimson;
+    transition: 1.5s;
 }
 
 .nav-title a {
