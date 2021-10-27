@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
 
 *{
     margin: 0;
@@ -32,7 +32,6 @@ nav {
     align-items: center;
     justify-content: space-between;
     background-color: black;
-    position: fixed;
 }
 
 .nav-links {
@@ -77,17 +76,27 @@ nav {
 .header {
     width: 100%;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: black;
+    padding: 1.5rem 2rem;
+    background: no-repeat center/100% url('images/_MG_0365.jpg');
+    position: relative;
 }
 
 .header-title {
-    width: 50rem;
-    height: 20rem;
+    width: 40%;
+    height: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: blue;
+    position: absolute;
+    top:0;
+    right:0;
+}
+
+.header-title h3{
+    color: white;
+    font-size: 3.5rem;
+    font-family: 'Rouge Script', 'cursive';
+    font-weight: 400;
+    text-align: center;
 }
