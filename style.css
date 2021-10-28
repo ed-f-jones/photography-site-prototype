@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
 
+/*==== universal styles ====*/
 *{
     margin: 0;
     padding: 0;
@@ -33,6 +34,23 @@ a{
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+
+.section-title {
+    width: 100%;
+    height: 5rem;
+    text-align: center;
+}
+
+.section-title h3 {
+    font-size: 3rem;
+    font-family: 'Rouge Script', 'cursive';
+    text-transform:capitalize;
+    letter-spacing: 5px;
+    color: grey;
+}
+
+/*=== navigation ====*/
+
 nav {
     width: 100%;
     padding: 1rem .5rem;
@@ -60,6 +78,11 @@ nav {
 .nav-links a:hover {
     color:crimson;
     transition: 1.5s;
+    cursor: pointer;
+}
+
+.nav-title a {
+    color: grey;
 }
 
 .social-icons {
@@ -75,11 +98,11 @@ nav {
 .social-icons a:hover {
     color: crimson;
     transition: 1.5s;
+    cursor: pointer;
 }
 
-.nav-title a {
-    color: grey;
-}
+
+/*=== header ===*/
 
 .header {
     width: 100%;
@@ -109,34 +132,45 @@ nav {
     text-align: center;
 }
 
-.section-title {
-    width: 100%;
-    height: 5rem;
-    text-align: center;
-}
-
-.section-title h3 {
-    font-size: 3rem;
-    font-family: 'Rouge Script', 'cursive';
-    text-transform:capitalize;
-    letter-spacing: 5px;
-    color: grey;
-}
-
+/*=== about section ===*/
 .about-img {
     width: 100%;
-    height:30rem;
+    height: 100%;
     object-fit: cover;
+    border-radius: .25rem;
 }
 
 .about-content {
     width: 35rem;
-    height:25rem;
+    height:30rem;
+    border-radius: 1rem;
 }
 
 .about-content p {
-    color: white;
+    color:lightgrey;
     font-family: 'Roboto','sans-serif';
     font-size: 1.25rem;
     line-height: 2rem;
+    text-align: center;
+}
+
+/*=== services ===*/
+
+/*=== gallery ===*/
+
+/*=== comtact ===*/
+
+/*=== footer ===*/
+
+.footer {
+    width: 100%;
+    background-color: crimson;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.footer p {
+    text-transform: capitalize;
 }
