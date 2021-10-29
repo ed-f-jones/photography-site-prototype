@@ -14,6 +14,8 @@
     --clr-pale-silver: #CCC5B9;
     --clr-deep-chestnut: #BF4342;
     --clr-eerie-black: #252422;
+    --clr-black-chocolate: #090C02;
+    --clr-rich-black: #020202;
     --clr-charcoal: #2E4052;
     --ff-header: 'Rouge Script','cursive';
     --ff-primary: 'Roboto','sans-serif';
@@ -24,7 +26,7 @@
 /* universal styles*/
 body {
     font-family: var(--ff-primary);
-    background: var(--clr-eerie-black);
+    background: var(--clr-rich-black);
     color: var(--clr-floral-white);
     line-height: 1.5;
     font-size: 0.875rem;
@@ -149,7 +151,7 @@ p {
     top:0;
     left:0;
     width: 100%;
-    background: var(--clr-eerie-black);
+    background: var(--clr-rich-black);
     z-index: 100;
 }
 
@@ -256,4 +258,43 @@ p {
     .nav-icon:hover {
         color: var(--clr-deep-chestnut);
     }
+}
+
+.hero {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/_MG_0365.jpg") center/95% no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-banner {
+    text-align: center;
+    color: var(--clr-floral-white);
+    padding: 0 3rem;
+}
+
+.hero-banner h1 {
+    text-transform: uppercase;
+}
+
+.hero-banner p {
+    max-width: 35rem;
+    margin-right: auto;
+    margin-left: auto;
+    color: var(--clr-floral-white);
+    letter-spacing: var(--spacing);
+}
+
+.hero-btn {
+    padding: 0.9rem 1.6rem;
+    font-size: 1.2rem;
+    background: var(--clr-deep-chestnut);
+    color: var(--clr-pale-silver);
+}
+
+.hero-btn:hover {
+    background: transparent;
+    color: var(--clr-pale-silver);
+    border-color: var(--clr-pale-silver);
 }
