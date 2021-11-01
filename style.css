@@ -154,6 +154,7 @@ p {
     left:0;
     width: 100%;
     background: var(--clr-rich-black);
+    box-shadow: var(--light-shadow);
     z-index: 100;
 }
 
@@ -426,7 +427,7 @@ p {
 }
 
 @media screen and (min-width:768px) {
-    .service-center{
+    .services-center{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
