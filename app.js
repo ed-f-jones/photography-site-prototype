@@ -3,6 +3,8 @@ const links = document.getElementById("nav-links");
 const navIcon = document.querySelectorAll(".nav-icon");
 const scrollLinks = document.querySelectorAll(".scroll-link");
 
+const date = document.getElementById("date").innerHTML = new Date().getFullYear();
+
 navBtn.addEventListener("click", ()=> {
     links.classList.toggle("show-links");
 });

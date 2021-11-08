@@ -494,3 +494,57 @@ p {
     }
 }
 /* end of gallery */
+
+/* reviews */
+/* end of reviews*/
+
+/* contact */
+/* end of contact */
+
+/* footer */
+.footer {
+    background: var(--clr-pale-silver);
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.footer-icons,
+.footer-links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.footer-link {
+    color: var(--clr-rich-black);
+    text-transform: capitalize;
+    font-size: 1rem;
+    margin-right: 1rem;
+    letter-spacing: var(--spacing);
+    transition: var(--transition);
+}
+
+.footer-link:hover {
+    color: var(--clr-deep-chestnut);
+}
+
+.footer-icon {
+    font-size: 2rem;
+    margin-right: 1rem;
+    letter-spacing: var(--spacing);
+    transition: var(--transition);
+    color: var(--clr-rich-black);
+}
+
+.footer-icon:hover {
+    color: var(--clr-deep-chestnut);
+}
+
+.copyright {
+    text-transform: capitalize;
+    letter-spacing: var(--spacing);
+    color: var(--clr-rich-black);
+}
+/* end of footer */
