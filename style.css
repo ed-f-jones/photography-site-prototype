@@ -359,6 +359,8 @@ p {
 
 }
 
+/* === services ==== */
+
 .service-card {
     transition: var(--transition);
     background: var(--clr-pale-silver);
@@ -499,6 +501,7 @@ p {
 /* end of reviews*/
 
 /* contact */
+
 /* end of contact */
 
 /* footer */
