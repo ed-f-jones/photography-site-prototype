@@ -123,6 +123,7 @@ p {
 
 .section {
     padding: 5rem 0;
+    border-bottom: 1px solid var(--clr-pale-silver);
 }
 
 .section-title {
