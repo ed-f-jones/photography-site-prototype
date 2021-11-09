@@ -501,7 +501,48 @@ p {
 /* end of reviews*/
 
 /* contact */
+.contact-info,
+.contact-img {
+    margin-bottom: 2rem;
+}
 
+@media screen and (min-width: 992px){
+
+    .contact-center {
+        display:flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .contact-img, 
+    .contact-info {
+        flex: 0 0 calc(50% - 2rem);
+        margin-bottom: 0;
+        align-selF: center;
+    }
+}
+
+@media screen and (min-width: 1170px) {
+
+    .contact-img::before {
+        content: "";
+        position: absolute;
+        top: -1.5rem;
+        left: -1.5rem;
+        border:  0.5rem solid var(--clr-pale-silver);
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+    }
+
+    .contact-img {
+        position: relative;
+    }
+    .contact-info{
+        position: relative;
+    }
+
+}
 /* end of contact */
 
 /* footer */
